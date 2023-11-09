@@ -1,0 +1,33 @@
+.error
+{
+    outline: 2px solid red;
+    border: none;
+}
+
+.input
+{
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.file
+{
+    padding-left: 0;
+}
+
+.errText
+{
+    color: red;
+    text-align: left;
+}
+
+.listInput
+{
+    width: auto;
+}
+
+.file.error
+{
+    outline: none;
+}

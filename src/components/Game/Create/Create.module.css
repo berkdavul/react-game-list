@@ -1,0 +1,37 @@
+.form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 750px;
+    justify-content: center;
+    margin: 50px auto;
+    align-items: flex-start;  
+}
+
+.title
+{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: start;
+     max-width: 1440px;
+     margin: 40px auto;
+     gap: 20px;
+     padding-right: 15px;
+     padding-left: 15px;
+}
+
+@media only screen and (max-width : 767px) {
+    .form
+{
+    width: calc(100% - 50px);
+}
+    
+}
