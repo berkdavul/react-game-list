@@ -88,7 +88,6 @@ const CreateGame = () => {
             <form className={classes.form} onSubmit={formSubmitHandler}>
                 <div className={classes.title}>New Game</div>
                 <InputComp
-
                     setError={setNameErr}
                     value={name}
                     error={nameErr}
@@ -98,7 +97,6 @@ const CreateGame = () => {
                 ></InputComp>
 
                 <InputComp
-
                     name="bundle"
                     error={bundleErr}
                     setError={setbundleErr}
@@ -109,7 +107,6 @@ const CreateGame = () => {
                 ></InputComp>
 
                 <InputComp
-
                     name="owner"
                     error={ownerErr}
                     value={owner}
